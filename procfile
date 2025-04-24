@@ -1,2 +1,1 @@
-web: gunicorn todos.wsgi --log-file
-web: python manage.py migrate && gunicorn todos.wsg
+web: python manage.py migrate && gunicorn todos.wsgi --log-file -
